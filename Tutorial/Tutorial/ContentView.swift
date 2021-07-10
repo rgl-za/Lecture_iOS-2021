@@ -49,8 +49,8 @@ struct ContentView: View {
                                             self.isActivated.toggle()
                                         }
                                     }//HStack
+                
                             //네비게이션 버튼(=링크) 만드는 곳
-                            
                 NavigationLink(destination: MyTextView(isActivated: $isActivated)){
                                 Text("네비게이션")
                                     .font(.system(size: 40))

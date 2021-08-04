@@ -22,7 +22,7 @@ struct ContentView: View {
                 }.padding(.top, 20)
                 .padding(.horizontal, 20)
                 
-                Text("TODO LIST TEST")
+                Text("TODO LIST")
                     .font(.system(size: 40))
                     .fontWeight(.black)
                     .padding(.horizontal, 20)
@@ -31,10 +31,7 @@ struct ContentView: View {
                             VStack{
                                     MyCard()
                                     MyBasic()
-                                    MyBasic()
-                                    MyBasic()
-                                    MyBasic()
-                                    MyBasic()
+                                MyProject(icon: "tray.fill", title: "정리하기", start: "16:00", end: "17:00", bgColor: Color.blue)
                                     
                             }.padding()
                     }

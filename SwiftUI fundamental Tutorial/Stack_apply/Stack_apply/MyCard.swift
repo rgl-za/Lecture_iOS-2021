@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MyCard : View {
     
+    @State var shouldShowAlert : Bool = false
+    
     let date = Date()
     
     var body: some View{
@@ -17,7 +19,7 @@ struct MyCard : View {
             
             Rectangle().frame(height:0)
             
-            Text("SwiftUI - apply to stack")
+            Text("iOS 프로젝트")
                 .font(.system(size:23))
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .padding(.bottom,5)
@@ -47,13 +49,24 @@ struct MyCard : View {
                 
                 Spacer()
                 
-                Text("확인")
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 80)
-                    .background(Color.blue)
-                    .cornerRadius(20)
+                Button(action:{
+                    print("확인 되었습니다")
+                    self.shouldShowAlert = true
+                    
+                }){
+                    //버튼 생김새
+                    Text("확인")
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 80)
+                        .background(Color.blue)
+                        .cornerRadius(20)
+                }.alert(isPresented: $shouldShowAlert){
+                    Alert(title: Text("완료 하셨나요?"))
+                }
+                
+                
                     
             }
         }

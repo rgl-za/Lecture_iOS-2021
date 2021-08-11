@@ -65,9 +65,6 @@ struct MyCard : View {
                 }.alert(isPresented: $shouldShowAlert){
                     Alert(title: Text("완료 하셨나요?"))
                 }
-                
-                
-                    
             }
         }
         .padding(30)

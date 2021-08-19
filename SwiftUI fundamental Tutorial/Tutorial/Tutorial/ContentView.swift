@@ -35,7 +35,7 @@ struct ContentView: View {
                             //조건문
                                 //if (isActiviated==true) Color.yellow
                                 //else Color.red
-                                    .background(isActivated ? Color.yellow : Color.red)
+                                    .background(isActivated ? Color.yellow : Color.black)
                                   
                             //탭 제스쳐 추가 .onTapGesture
                             //뷰에다가 클릭 처리하기 위해서는 onTapGesture 설정

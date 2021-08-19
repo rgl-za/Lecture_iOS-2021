@@ -31,7 +31,7 @@ struct MyStackView: View{
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .font(.system(size: 50))
         }//Vstack 수평
-        .background(self.isActivated ? Color.green : Color.blue)
+        .background(self.isActivated ? Color.green : Color.red)
         .padding(self.isActivated ? 10 : 0)
         
     }

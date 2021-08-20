@@ -18,10 +18,11 @@ struct ContentView: View {
             HStack{
                 //destination: 다음에 보여줄 화면
                 NavigationLink(
-                    destination: MyWebview(urlToLoad: "http://www.naver.com").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)){
+                    destination: MyWebview(urlToLoad: "http://www.naver.com")
+                        .edgesIgnoringSafeArea(.all)){
                     Text("네이버")
                         .font(.system(size: 20))
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
                         .padding(20)
                         .background(Color.green)
                         .foregroundColor(Color.white)
@@ -29,10 +30,10 @@ struct ContentView: View {
                 }
                 
                 NavigationLink(
-                    destination: MyWebview(urlToLoad: "http://www.daum.net").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)){
+                    destination: MyWebview(urlToLoad: "http://www.daum.net").edgesIgnoringSafeArea(.all)){
                     Text("다음")
                         .font(.system(size: 20))
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
                         .padding(20)
                         .background(Color.yellow)
                         .foregroundColor(Color.white)
@@ -40,10 +41,10 @@ struct ContentView: View {
                 }
                 
                 NavigationLink(
-                    destination: MyWebview(urlToLoad: "http://www.google.com").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)){
+                    destination: MyWebview(urlToLoad: "http://www.google.com").edgesIgnoringSafeArea(.all)){
                     Text("구글")
                         .font(.system(size: 20))
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
                         .padding(20)
                         .background(Color.blue)
                         .foregroundColor(Color.white)

@@ -11,7 +11,7 @@ struct ContentView: View {
     
     static let dateFormat: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "YYYY년 M월 dd일"
+//        formatter.dateFormat = "YYYY년 M월 dd일"
         formatter.dateStyle = .long
         return formatter
     }()

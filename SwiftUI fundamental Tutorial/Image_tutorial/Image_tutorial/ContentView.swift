@@ -11,8 +11,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Color.blue.ignoresSafeArea()
+                Color.blue
+                    .ignoresSafeArea()
+                    .frame(height: 30)
+                    .offset(y:-50)
+                   
                 CircleImageView()
+                
+                Text("덩이")
+                    .font(.system(size: 30))
+                    .fontWeight(.bold)
+                    .padding(.top, 30)
                 
                 HStack{
                         NavigationLink(
@@ -32,11 +41,10 @@ struct ContentView: View {
                                 .font(.system(size: 20))
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.white)
-                                .padding(7)
+                                .padding(10)
                                 .background(Color.green)
                                 .cornerRadius(20)
                     }
-                    .padding()
                 }//HStack
                 .padding(50) //원 패딩
                 

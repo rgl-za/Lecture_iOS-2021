@@ -9,7 +9,8 @@ import SwiftUI
 
 struct MyCard : View {
     
-    @State var shouldShowAlert : Bool = false
+    @State
+    var shouldShowAlert : Bool = false
     
     let date = Date()
     
@@ -21,7 +22,7 @@ struct MyCard : View {
             
             Text("iOS 프로젝트")
                 .font(.system(size:23))
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .padding(.bottom,5)
            
             Text(date, style: .time)
@@ -33,7 +34,7 @@ struct MyCard : View {
                 Image("1")
                     .resizable()
                     .frame(width: 50, height:50)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .clipShape(Circle())
                     .overlay(
                     Circle()
                         .stroke(lineWidth: 1)
@@ -41,11 +42,11 @@ struct MyCard : View {
                 Image("2")
                     .resizable()
                     .frame(width: 50, height:50)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .clipShape(Circle())
                 Image("3")
                     .resizable()
                     .frame(width: 50, height:50)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .clipShape(Circle())
                 
                 Spacer()
                 
@@ -56,7 +57,7 @@ struct MyCard : View {
                 }){
                     //버튼 생김새
                     Text("확인")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
                         .foregroundColor(.white)
                         .padding()
                         .frame(width: 80)

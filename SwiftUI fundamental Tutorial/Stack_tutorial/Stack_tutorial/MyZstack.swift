@@ -13,21 +13,22 @@ struct MyZstack : View{
         ZStack{
             
             Rectangle()
-                .frame(width: 100, height: 100)
-                .foregroundColor(.red)
-                .zIndex(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
+                .frame(width: 50, height: 50)
+                .foregroundColor(Color.yellow)
+                .zIndex(2)
+//                .padding(.bottom, 100)
+                .offset(y:-100)
+            
             
             Rectangle()
-                .frame(width: 50, height: 50)
-                .foregroundColor(.yellow)
-                .zIndex(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
-//                .offset(y:-100)
-                .padding(-100)
+                .frame(width: 100, height: 100)
+                .foregroundColor(Color.red)
+                .zIndex(1)
             
             Rectangle()
                 .frame(width: 150, height:150)
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                .zIndex(0.0)
+                .foregroundColor(Color.blue)
+                .zIndex(0)
         }
     }
 }

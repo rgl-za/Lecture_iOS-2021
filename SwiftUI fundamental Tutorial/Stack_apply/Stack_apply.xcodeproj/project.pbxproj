@@ -12,6 +12,7 @@
 		BD3C9D9126B04022005BB6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3C9D9026B04022005BB6BF /* Assets.xcassets */; };
 		BD3C9D9426B04022005BB6BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3C9D9326B04022005BB6BF /* Preview Assets.xcassets */; };
 		BD3C9D9C26B0408D005BB6BF /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C9D9B26B0408D005BB6BF /* MyCard.swift */; };
+		BD4FCF0926D2DE47003B7493 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FCF0826D2DE47003B7493 /* MyList.swift */; };
 		BD940F7C26B254C6006175F7 /* MyBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD940F7B26B254C6006175F7 /* MyBasic.swift */; };
 		BD940F7E26B25D49006175F7 /* MyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD940F7D26B25D49006175F7 /* MyProject.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		BD3C9D9326B04022005BB6BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD3C9D9526B04022005BB6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3C9D9B26B0408D005BB6BF /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		BD4FCF0826D2DE47003B7493 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		BD940F7B26B254C6006175F7 /* MyBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasic.swift; sourceTree = "<group>"; };
 		BD940F7D26B25D49006175F7 /* MyProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				BD3C9D9B26B0408D005BB6BF /* MyCard.swift */,
 				BD940F7B26B254C6006175F7 /* MyBasic.swift */,
 				BD940F7D26B25D49006175F7 /* MyProject.swift */,
+				BD4FCF0826D2DE47003B7493 /* MyList.swift */,
 			);
 			path = Stack_apply;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				BD3C9D8D26B04021005BB6BF /* Stack_applyApp.swift in Sources */,
 				BD3C9D9C26B0408D005BB6BF /* MyCard.swift in Sources */,
 				BD940F7E26B25D49006175F7 /* MyProject.swift in Sources */,
+				BD4FCF0926D2DE47003B7493 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

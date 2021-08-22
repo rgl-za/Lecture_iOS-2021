@@ -19,7 +19,7 @@ struct MyBasic: View{
                 Divider().opacity(0)
 //                Rectangle.frame(height:0)
                 Text("test")
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
                     .font(.system(size: 23))
                     .foregroundColor(.white)
                 

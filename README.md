@@ -20,3 +20,9 @@ https://youtube.com/playlist?list=PLgOlaPUIbynqyJHiTEv7CFaXd8g5jtogT
 5. Text: https://devlog2829.tistory.com/16
 
 6. Image:https://devlog2829.tistory.com/17
+
+7. Stack: https://devlog2829.tistory.com/18
+
+8. Layout: https://devlog2829.tistory.com/19
+
+9. List:  https://devlog2829.tistory.com/20

@@ -1,7 +1,6 @@
 # 유튜브 개발하는 정대리님 SwiftUI 강의
 
-### 🔘 SwiftUI fundamental Tutorial
-https://youtube.com/playlist?list=PLgOlaPUIbynqyJHiTEv7CFaXd8g5jtogT
+### [SwiftUI fundamental Tutorial](https://youtube.com/playlist?list=PLgOlaPUIbynqyJHiTEv7CFaXd8g5jtogT)
     
 
 ---
@@ -9,22 +8,22 @@ https://youtube.com/playlist?list=PLgOlaPUIbynqyJHiTEv7CFaXd8g5jtogT
 #### Contents
 
 
-1. Basic guide: https://devlog2829.tistory.com/12
+1. [Basic guide](https://devlog2829.tistory.com/12)
 
-2. State: https://devlog2829.tistory.com/13
+2. [State](https://devlog2829.tistory.com/13)
 
-3. Binding: https://devlog2829.tistory.com/14
+3. [Binding](https://devlog2829.tistory.com/14)
 
-4. WebView: https://devlog2829.tistory.com/15
+4. [WebView](https://devlog2829.tistory.com/15)
 
-5. Text: https://devlog2829.tistory.com/16
+5. [Text](https://devlog2829.tistory.com/16)
 
-6. Image:https://devlog2829.tistory.com/17
+6. [Image](https://devlog2829.tistory.com/17)
 
-7. Stack: https://devlog2829.tistory.com/18
+7. [Stack](https://devlog2829.tistory.com/18)
 
-8. Layout: https://devlog2829.tistory.com/19
+8. [Layout](https://devlog2829.tistory.com/19)
 
-9. List:  https://devlog2829.tistory.com/20
+9. [List](https://devlog2829.tistory.com/20)
 
-10. NavigationView: https://devlog2829.tistory.com/21
+10. [NavigationView](https://devlog2829.tistory.com/21)

@@ -26,3 +26,5 @@ https://youtube.com/playlist?list=PLgOlaPUIbynqyJHiTEv7CFaXd8g5jtogT
 8. Layout: https://devlog2829.tistory.com/19
 
 9. List:  https://devlog2829.tistory.com/20
+
+10. NavigationView: https://devlog2829.tistory.com/21

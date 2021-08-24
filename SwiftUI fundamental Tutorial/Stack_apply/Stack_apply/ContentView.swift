@@ -31,8 +31,13 @@ struct ContentView: View {
                         
                         Spacer()
                         
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        NavigationLink(destination: MyProfile()){
+                            Image(systemName: "person.crop.circle.fill")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                            
+                        }
+                        
                         
                     }.padding(.top, 20)
                     .padding(.horizontal, 20)

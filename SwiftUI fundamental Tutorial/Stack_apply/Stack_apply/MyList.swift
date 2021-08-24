@@ -45,6 +45,7 @@ extension View {
 
 struct MyList: View{
     
+    
     var body: some View{
         
 //        //하드코딩
@@ -86,7 +87,7 @@ struct MyList: View{
                     .font(.headline)
                     .foregroundColor(.black)
                 ,footer:
-                    Text("👍👍👍")
+                    Text("GOOD DAY👍")
             ){
                 ForEach(1...20, id: \.self){
                     itemIndex in //Text("MY LIST \(itemIndex)")
@@ -98,6 +99,8 @@ struct MyList: View{
         .listStyle(GroupedListStyle())
         //.listStyle(PlainListStyle()) //디폴트 리스트 스타일
         .navigationBarTitle("MY LIST")
+        
+        
         
     }
 }

@@ -27,3 +27,5 @@
 9. [List](https://devlog2829.tistory.com/20)
 
 10. [NavigationView](https://devlog2829.tistory.com/21)
+
+11. [GeometryReader](https://devlog2829.tistory.com/24)

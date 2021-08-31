@@ -20,6 +20,7 @@
 		BD7BB96026DE5A7600F68510 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB95F26DE5A7600F68510 /* MyTabView.swift */; };
 		BD7BB96226DE5E4100F68510 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB96126DE5E4100F68510 /* MyView.swift */; };
 		BD8B88CC26DD2920004E0EA9 /* MyGeometryReaderStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B88CB26DD2920004E0EA9 /* MyGeometryReaderStack.swift */; };
+		BD910DA626DE69950046EDEC /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD910DA526DE69950046EDEC /* MyCustomView.swift */; };
 		BD940F7C26B254C6006175F7 /* MyBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD940F7B26B254C6006175F7 /* MyBasic.swift */; };
 		BD940F7E26B25D49006175F7 /* MyProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD940F7D26B25D49006175F7 /* MyProject.swift */; };
 		BDA8D5FA26D5894A007CE569 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8D5F926D5894A007CE569 /* MyGeometryReader.swift */; };
@@ -42,6 +43,7 @@
 		BD7BB95F26DE5A7600F68510 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		BD7BB96126DE5E4100F68510 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		BD8B88CB26DD2920004E0EA9 /* MyGeometryReaderStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderStack.swift; sourceTree = "<group>"; };
+		BD910DA526DE69950046EDEC /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		BD940F7B26B254C6006175F7 /* MyBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasic.swift; sourceTree = "<group>"; };
 		BD940F7D26B25D49006175F7 /* MyProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProject.swift; sourceTree = "<group>"; };
 		BDA8D5F926D5894A007CE569 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				BD8B88CB26DD2920004E0EA9 /* MyGeometryReaderStack.swift */,
 				BD7BB95F26DE5A7600F68510 /* MyTabView.swift */,
 				BD7BB96126DE5E4100F68510 /* MyView.swift */,
+				BD910DA526DE69950046EDEC /* MyCustomView.swift */,
 			);
 			path = Stack_apply;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				BD7BB96026DE5A7600F68510 /* MyTabView.swift in Sources */,
 				BDA8D5FA26D5894A007CE569 /* MyGeometryReader.swift in Sources */,
 				BD3C9D9C26B0408D005BB6BF /* MyCard.swift in Sources */,
+				BD910DA626DE69950046EDEC /* MyCustomView.swift in Sources */,
 				BD8B88CC26DD2920004E0EA9 /* MyGeometryReaderStack.swift in Sources */,
 				BD940F7E26B25D49006175F7 /* MyProject.swift in Sources */,
 				BD1815FF26D40FEB00E8322B /* MyWebView.swift in Sources */,

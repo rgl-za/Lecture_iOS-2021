@@ -33,3 +33,9 @@
 12. [TabView](https://devlog2829.tistory.com/25)
 
 13. [Custom TabView](https://devlog2829.tistory.com/26)
+
+14. [QRCodeReader]()
+
+15. [ButtonStyle](https://devlog2829.tistory.com/27)
+
+16. [TextField, SecureField](https://devlog2829.tistory.com/28)

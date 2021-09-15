@@ -39,3 +39,9 @@
 15. [ButtonStyle](https://devlog2829.tistory.com/27)
 
 16. [TextField, SecureField](https://devlog2829.tistory.com/28)
+
+17. [Toast, Popup](https://devlog2829.tistory.com/29)
+
+18. [Picker]()
+
+19. [Deeplink]()

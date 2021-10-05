@@ -25,7 +25,7 @@ struct DeepLinkApp: App {
                         ProfileView().tabItem {
                             VStack{
                                 Image(systemName: "person.circle.fill")
-                                Text("TODO")
+                                Text("Profile")
                             }
                         }.tag(TabIendtifier.profile)
                     })
@@ -80,7 +80,10 @@ extension URL{
     
     var detailPage: PageIdentifier?{
         // deeplink-swiftui://[host]/[pathComponents]/인 경우
-        // ["/", "id"] 형식으로 들어옴 
+        // ["/", "id"] 형식으로 들어옴
+        
+        print("pathComponents: \(pathComponents)")
+        
         guard let tabId = tabIdentifier, pathComponents.count > 1,
             let uuid = UUID(uuidString: pathComponents[1])
             else { return nil }

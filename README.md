@@ -34,7 +34,7 @@
 
 13. [Custom TabView](https://devlog2829.tistory.com/26)
 
-14. [QRCodeReader]()
+14. QRCodeReader
 
 15. [ButtonStyle](https://devlog2829.tistory.com/27)
 
@@ -42,6 +42,6 @@
 
 17. [Toast, Popup](https://devlog2829.tistory.com/29)
 
-18. [Picker]()
+18. [Picker](https://devlog2829.tistory.com/30)
 
-19. [Deeplink]()
+19. [DeepLink](https://devlog2829.tistory.com/31)

@@ -45,3 +45,7 @@
 18. [Picker](https://devlog2829.tistory.com/30)
 
 19. [DeepLink](https://devlog2829.tistory.com/31)
+
+20. [Menu](https://devlog2829.tistory.com/32)
+
+21. [LazyVGrid](https://devlog2829.tistory.com/33)

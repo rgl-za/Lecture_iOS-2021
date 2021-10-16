@@ -49,3 +49,5 @@
 20. [Menu](https://devlog2829.tistory.com/32)
 
 21. [LazyVGrid](https://devlog2829.tistory.com/33)
+
+22. [Redux](https://devlog2829.tistory.com/34)
